@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: darkred;
+    border: 5px solid;
+    margin-bottom: 1em;
+}
+.tituloportfólio {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Neucha', cursive;
+    justify-content: space-around;
+}
+.subport{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+body{
+    padding: 30px;
+    background: LightGoldenrodYellow;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media(min-width:320px){
+    body{
+        font-size: 10px; 
+    }
+}
+@media(min-width:500px){
+    body{
+        font-size: 20px; 
+    }
+}
+.cert{
+    width: 35%;
+    border: solid;
+}
+#cert2{
+ float: right;   
+}
+footer{
+    position: move;
+    width: 99%;
+    clear: both;
+    text-align: center;
+    border: 2px solid;
+    background: rgb(192, 87, 48);
+    text-decoration: whitesmoke;
+    }
